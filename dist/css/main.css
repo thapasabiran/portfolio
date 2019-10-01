@@ -173,19 +173,6 @@ header {
 main {
   padding: 4rem;
   min-height: calc(100vh - 60px); }
-  main .arrow {
-    visibility: visible;
-    float: right;
-    transform: translate(17px, -6px);
-    transition: all 0.5s ease-out; }
-    main .arrow.show {
-      visibility: hidden; }
-  main .arrow-right {
-    visibility: hidden;
-    float: right;
-    transition: all 0.5s ease-out; }
-    main .arrow-right.show {
-      visibility: visible; }
   main#home {
     overflow: hidden; }
     main#home h1 {
