@@ -11,7 +11,7 @@ body {
   color: set-text-color($secondary-color);
   height: 100%;
   margin: 0;
-  font-family: cursive; // "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif; //"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
 }
 
@@ -25,7 +25,7 @@ h3 {
   color: rgba(lighten($primary-color, 3), 1);
 
   &.lg-heading {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 
   &.sm-heading {
@@ -183,7 +183,7 @@ main {
 
   img {
     width: 100%;
-    height: calc(25vh + 25px);
+    height: calc(30vh);
     border: 3px $tertiary-color-three solid;
 
     &:hover {
@@ -205,7 +205,7 @@ main {
   div {
     width: 100%;
     border: 3px rgba(lighten($primary-color, 3), 0.25) solid;
-    padding: 2rem 2rem;
+    padding: 2rem 1rem;
     margin-bottom: 1rem;
 
     @include easeOut;
