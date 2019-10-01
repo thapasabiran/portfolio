@@ -92,37 +92,37 @@ main {
   //height: 100%;
   min-height: calc(100vh - 60px);
 
-  .arrow {
-    // position: fixed;
-    //top: 0;
-    //width: 100%;
-    //opacity: 0.9;
-    visibility: visible;
+  // .arrow {
+  //   // position: fixed;
+  //   //top: 0;
+  //   //width: 100%;
+  //   //opacity: 0.9;
+  //   visibility: visible;
 
-    &.show {
-      visibility: hidden;
-    }
-    float: right;
-    //width: 25%;
+  //   &.show {
+  //     visibility: hidden;
+  //   }
+  //   float: right;
+  //   //width: 25%;
 
-    //padding: 0;
-    //background: $tertiary-color-one;
-    //list-style: none;
-    //transform: translate3d(100%, 0, 0);
-    transform: translate(17px, -6px);
-    @include easeOut;
-  }
+  //   //padding: 0;
+  //   //background: $tertiary-color-one;
+  //   //list-style: none;
+  //   //transform: translate3d(100%, 0, 0);
+  //   transform: translate(17px, -6px);
+  //   @include easeOut;
+  // }
 
-  .arrow-right {
-    visibility: hidden;
+  // .arrow-right {
+  //   visibility: hidden;
 
-    &.show {
-      visibility: visible;
-    }
-    float: right;
-    //transform: translate(17px, -6px);
-    @include easeOut;
-  }
+  //   &.show {
+  //     visibility: visible;
+  //   }
+  //   float: right;
+  //   //transform: translate(17px, -6px);
+  //   @include easeOut;
+  // }
 
   &#home {
     overflow: hidden;
