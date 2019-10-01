@@ -30,13 +30,13 @@ h3 {
 
   &.sm-heading {
     margin-bottom: 2rem;
-    padding: 0.2rem 1rem;
+    //padding: 1rem; // 1rem;
     background: $tertiary-color-three; //rgba(lighten($primary-color, 3), 0.25);
   }
 
   &.home-sm-heading {
     margin-bottom: 2rem;
-    padding: 0.2rem 1rem;
+    //padding: 0.2rem 1rem;
     background: rgba(lighten($primary-color, 3), 0.25);
   }
 }
@@ -134,7 +134,8 @@ main {
 }
 
 .about-info {
-  margin: 50px 50px 50px 50px;
+  //margin: 50px 50px 50px 50px;
+  //margin-top: 10px;
   display: grid;
   grid-gap: 30px;
   grid-template-areas:
@@ -176,7 +177,7 @@ main {
 //Work/Projects
 
 .projects {
-  margin: 50px 50px 50px 50px;
+  // margin: 50px 50px 50px 50px;
   display: grid;
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr);

@@ -131,13 +131,11 @@ h3 {
   h2.sm-heading,
   h3.sm-heading {
     margin-bottom: 2rem;
-    padding: 0.2rem 1rem;
     background: #0d0d0d; }
   h1.home-sm-heading,
   h2.home-sm-heading,
   h3.home-sm-heading {
     margin-bottom: 2rem;
-    padding: 0.2rem 1rem;
     background: rgba(180, 208, 244, 0.25); }
 
 h6 {
@@ -179,7 +177,6 @@ main {
       margin-top: 20vh; }
 
 .about-info {
-  margin: 50px 50px 50px 50px;
   display: grid;
   grid-gap: 30px;
   grid-template-areas: "bioimage bio bio" "job1 job2 job3";
@@ -204,7 +201,6 @@ main {
     border-bottom: #a7c8f2 5px solid; }
 
 .projects {
-  margin: 50px 50px 50px 50px;
   display: grid;
   grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr); }
